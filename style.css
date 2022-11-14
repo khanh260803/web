@@ -1,0 +1,32 @@
+table,
+td,
+th {
+  /*border: 1px solid #333;*/
+  height: 50px;
+  vertical-align: bottom;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+/*tr:hover {
+  background-color: coral;
+}*/
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+th {
+  background-color: #04aa6d;
+}
+/*input {
+  box-shadow: 
+  font-weight: 100px;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background-color: rgba(220, 0, 0, 1);
+}
+input:hover {
+  background-color: rgba(255, 0, 0, 1);
+}*/
